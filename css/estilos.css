@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+/*@mixin alturaTamaño($size, $weight){
+	font-size: $size;
+	font-weight: $weight;
+}
+
+.type-regular{
+	@include alturaTamaño
+(1rem, $fuente-regular);
+}
+.type-bold{
+	@include alturaTamaño
+(1.2rem, $fuente-bold);
+}*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+#mailTel ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 20px;
+  padding: 0 30px;
+  flex-wrap: wrap;
+}
+
+#head {
+  background-color: #292929;
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#head .logo {
+  width: 56px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
+}
+
+#head .botonera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#head .botonera li {
+  list-style: none;
+}
+
+#head .botonera a {
+  padding: 0rem 1rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.encabezado {
+  margin: 0;
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+  font-size: 1rem;
+}
+
+.encabezado span {
+  font-weight: 700;
+}
+
+.whatsApp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
+.whatsApp img {
+  width: 65px;
+}
+
+#footer {
+  margin-top: 50px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #292929;
+  color: #FFFFFF;
+}
+
+#footer .logo img {
+  width: 90px;
+  background-color: #FFFFFF;
+}
+
+#footer .logo p {
+  padding-top: 10px;
+}
+
+#footer .contacto {
+  font-size: 1.2rem;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer a {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+#footer .redesSociales ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer .redesSociales img {
+  width: 65px;
+}
+
+#quienessomos .titulos {
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}
+
+#quienessomos .textoSomos {
+  margin: 0px 80px;
+  font-size: 23px;
+}
+
+#servicios .titulos {
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}
+
+#servicios .subTituloServicios {
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}
+
+#servicios h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card .card-img-top {
+  height: 350px;
+}
+
+#profesional {
+  text-align: center;
+}
+
+#profesional .titulos {
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}
+
+#profesional img {
+  width: 300px;
+}
+
+#profesional img:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+#profesional .nombre {
+  font-weight: 700;
+}
+
+#profesional p {
+  font-size: 1rem;
+}
+
+#preguntasFrecuentes {
+  text-align: center;
+}
+
+#preguntasFrecuentes .titulos {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}
+
+#preguntasFrecuentes .preguntas {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.25rem;
+}
+
+#preguntasFrecuentes .respuestas {
+  font-weight: 400;
+  width: 1024px;
+  margin: auto;
+}
+
+#contacto .titulos {
+  margin-top: 1rem;
+  margin-bottom: 0.10rem;
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}
+
+#contacto .fondo {
+  background-color: #292929;
+  height: 120px;
+}
+
+#contacto .fondo .botonera {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+#formContacto .titulos {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: #FFDD0E;
+  color: #292929;
+}

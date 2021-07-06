@@ -1,0 +1,22 @@
+#profesional{
+	text-align: center;
+	.titulos{
+		text-align: center;
+		background-color:$fondo__secundario;
+		color: $color__secundario;
+	}
+	img{
+		width: 300px;
+		&:hover{
+			cursor:pointer;
+    		transform: translateY(-3px);
+    		transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+		}
+			}
+	.nombre{
+		font-weight: $font__weight--bold;
+	}
+	p{
+		font-size: 1rem;
+	}
+}

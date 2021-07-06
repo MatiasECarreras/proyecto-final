@@ -1,0 +1,21 @@
+#contacto{
+	.titulos{
+		margin-top: 1rem;
+		margin-bottom: 0.10rem;
+		text-align: center;
+		background-color:$fondo__secundario;
+		color: $color__secundario;
+	}
+	.fondo{
+		background-color:$fondo__principal;
+		height: 120px;
+		.botonera{
+			height: 120px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+			font-size: 20px;
+		}
+	}	
+}

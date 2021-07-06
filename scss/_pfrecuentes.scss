@@ -1,0 +1,20 @@
+#preguntasFrecuentes{
+	text-align: center;
+	.titulos{
+		margin-top: 1rem;
+		text-align: center;
+		background-color:$fondo__secundario;
+		color: $color__secundario;
+	}
+	.preguntas{
+		font-size: 1.25rem;
+		font-weight: $font__weight--bold;
+		padding: 0.25rem;
+	}
+	.respuestas{
+		font-weight: $font__weight--regular;
+		width: 1024px;
+		margin: auto;	
+	}
+
+}

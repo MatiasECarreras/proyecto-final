@@ -1,0 +1,23 @@
+#servicios{
+	.titulos{
+		text-align: center;
+		background-color:$fondo__secundario;
+		color: $color__secundario;
+	}
+	.subTituloServicios{
+		text-align: center;
+		background-color:$fondo__secundario;
+		color: $color__secundario;
+	}
+	h6{
+		font-size: 1rem;
+		font-weight: $font__weight--bold;
+		text-align: center;
+	}
+}
+
+.card{
+	.card-img-top{
+		height: 350px;
+	}
+}

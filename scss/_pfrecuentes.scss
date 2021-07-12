@@ -1,6 +1,8 @@
 #preguntasFrecuentes{
 	text-align: center;
 	.titulos{
+		font-family:$font__family--titulos;
+		font-weight: $font__weight--regular;
 		margin-top: 1rem;
 		text-align: center;
 		background-color:$fondo__secundario;

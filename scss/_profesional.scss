@@ -1,6 +1,8 @@
 #profesional{
 	text-align: center;
 	.titulos{
+		font-family:$font__family--titulos;
+		font-weight: $font__weight--regular;
 		text-align: center;
 		background-color:$fondo__secundario;
 		color: $color__secundario;

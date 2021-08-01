@@ -1,14 +1,15 @@
-#quienessomos{
+.quienesSomos{
 	.titulos{
 		font-family:$font__family--titulos;
 		font-weight: $font__weight--regular;
+		margin-top: 1.25rem;
 		text-align: center;
 		background-color:$fondo__secundario;
 		color: $color__secundario;
 	}
 	.textoSomos{
-		margin: 0px 80px;
-		font-size: 23px;
+		margin: auto;
+		font-size: 0.75rem;
 	}	
 
 }

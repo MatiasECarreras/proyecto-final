@@ -1,4 +1,4 @@
-.preguntasFrecuentes .container{
+#preguntasFrecuentes{
 	text-align: center;
 	.titulos{
 		font-family:$font__family--titulos;
@@ -15,7 +15,7 @@
 	}
 	.respuestas{
 		font-weight: $font__weight--regular;
-				font-size: 0.75rem;	
+		font-size: 1rem;	
 	}
 	
 }
